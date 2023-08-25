@@ -73,45 +73,7 @@ Error generating stack: `+l.message+`
         position:relative;
         top:-20px;
     }
-
-    @media(min-width:992px) and (max-width:1168px){
-        
-        img{
-          width:1060px;
-        }
-        
-    }
-
-
-
-@media(min-width:768px) and (max-width:991px){
-      img{
-          width:1110px;
-        }
-
-}
-
-
-
-
-@media(min-width:576px) and (max-width:767px){
-
-      img{
-          width:1100px;
-        }
-
-
-}
-
-
-
-@media(max-width:575px){
-    img{
-          width:1100px;
-        }
-
-
-}
+${""}
 `;function hg(){const[e,t]=j.useState(""),[n,r]=j.useState(""),[i,l]=j.useState(""),[o,a]=j.useState(""),[s,u]=j.useState(""),h=m=>{m.preventDefault();const v=g(e);u(v)},g=(m,v,w,y)=>{const P=m*.8,f=m*2,c=m*.4;return{protein:P,carbs:f,fat:c}};return d.jsxs(mg,{children:[d.jsxs("form",{onSubmit:h,children:[d.jsx("h1",{children:"MacroCalculator"}),d.jsxs("div",{className:"macro",children:[d.jsx("label",{htmlFor:"weight",children:"Weight(lbs)"}),d.jsx("input",{type:"number",id:"weight",value:e,onChange:m=>t(m.target.value)})]}),d.jsxs("div",{className:"macro",children:[d.jsx("label",{htmlFor:"height",children:"Height(inches)"}),d.jsx("input",{type:"number",id:"height",value:n,onChange:m=>r(m.target.value)})]}),d.jsxs("div",{className:"macro",children:[d.jsx("label",{htmlFor:"age",children:"Age(years)"}),d.jsx("input",{type:"number",id:"age",value:i,onChange:m=>l(m.target.value)})]}),d.jsxs("div",{className:"macro",children:[d.jsx("label",{htmlFor:"activityLevel",children:"Activity Level"}),d.jsxs("select",{id:"activityLevel",value:o,onChange:m=>a(m.target.value),children:[d.jsx("option",{value:"",children:"Select an option"}),d.jsx("option",{value:"sedentary",children:"Sedentary"}),d.jsx("option",{value:"lightlyActive",children:"Lightly Active"}),d.jsx("option",{value:"moderatlyActive",children:"Moderatly Active"}),d.jsx("option",{value:"veryActive",children:"Very Active"}),d.jsx("option",{value:"extraActive",children:"Extra Active"})]})]}),d.jsx("button",{type:"submit",onClick:h,children:"Calculate Macros"})]}),s&&d.jsxs("div",{className:"values",children:[d.jsx("h1",{children:"Macro Values"}),d.jsxs("p",{children:["Protein: ",d.jsx("span",{children:s.protein}),"  grams"]}),d.jsxs("p",{children:["Carbs: ",d.jsx("span",{children:s.carbs})," grams"]}),d.jsxs("p",{children:["Fat: ",d.jsx("span",{children:s.fat})," grams"]})]})]})}const mg=ge.div`
     width:100vw;
     display:flex;
@@ -718,78 +680,35 @@ Error generating stack: `+l.message+`
 }
 `;function Ng(){return d.jsx(Rg,{children:d.jsxs("div",{className:"container",children:[d.jsxs("div",{className:"banner-left",children:[d.jsx("h2",{children:"Become a Member"}),d.jsx("p",{children:"Your fitness journey starts from here"})]}),d.jsxs("div",{className:"banner-right btn-container",children:[d.jsx("button",{children:"Log In"}),d.jsx("button",{children:"Sign Up"})]})]})})}const Rg=ge.div`
     background-color:red;
-    padding:50px;
+    width:100vw;
 
     .container{
         display:flex;
+        padding:3em;
+        justify-content:center;
 
         .banner-left{
             color:white;
+            margin-right:10em;
         }
 
-        .btn-container button{
-            margin-right:10px;
+        .btn-container{
         }
 
         button{
             float:right;
-            padding:10px;
+            padding:1em;
             background:transparent;
             border:1px solid white;
             color:white;
             font-size:20px;
             border-radius:10px;
             position:relative;
-            left:500px;
+            margin-right:2em;
+            ${""}
         }
     }
-
-    @media(min-width:992px) and (max-width:1168px){
-        
-        width:1100px;
-        
-    }
-    
-    
-    
-    @media(min-width:768px) and (max-width:991px){
-    
-    width:1000px;
-
-    .btn-container button{
-        position:relative;
-        left:60px;
-        width:200px;
-    }
-    
-    }
-    
-    
-    
-    
-    @media(min-width:576px) and (max-width:767px){
-    
-    width:900px;
-
-    .btn-container button{
-        position:relative;
-        left:40px;
-    }
-    
-    }
-    
-    
-    
-    @media(max-width:575px){
-    
-    width:600px;
-
-    .btn-container button{
-        position:relative;
-        left:10px;
-    }
-    
-    }
+${""}
 `,zg="/ZFitness/assets/partners-e360afe2.jpeg";function Lg(){return d.jsxs(Tg,{children:[d.jsx("h1",{children:"Our Partners"}),d.jsx("div",{className:"users",children:d.jsx("img",{src:zg})})]})}const Tg=ge.div`
 
     h1{
